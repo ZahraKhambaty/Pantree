@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "description": "testingThings",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "ABCDEFG",
+  "engines": {
+    "node": "8"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions:test",
+    "deploy": "firebase deploy --only functions:test"
+  },
+  "dependencies": {
+    "google-cloud-storage": "",
+    "google-cloud-firestore": "",
+  }
+}
